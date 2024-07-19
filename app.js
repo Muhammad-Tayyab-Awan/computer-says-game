@@ -1,1 +1,1 @@
-let msg = document.querySelector("#msg");
+let msg = document.querySelector(".msg");
