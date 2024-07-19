@@ -15,5 +15,26 @@ body {
   height: 350px;
   width: 350px;
   border-radius: 50%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+.roundBox {
+  border: 2px solid black;
+}
+#rBox1 {
+  border-top-left-radius: 100%;
   background-color: red;
+}
+#rBox2 {
+  border-top-right-radius: 100%;
+  background-color: blue;
+}
+#rBox3 {
+  border-bottom-left-radius: 100%;
+  background-color: yellow;
+}
+#rBox4 {
+  border-bottom-right-radius: 100%;
+  background-color: green;
 }
