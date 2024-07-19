@@ -6,6 +6,7 @@ let level = 0;
 function gameStarted() {
   level++;
   msg.innerText = `Level ${level}`;
+  let randomIdx = Math.floor(Math.random() * 4);
 }
 addEventListener("keypress", function (evt) {
   if (gameStart == false) {
