@@ -3,6 +3,7 @@ let userInput = [];
 let msg = document.querySelector(".msg");
 let gameStart = false;
 let level = 0;
+let boxes = document.querySelectorAll(".roundBox");
 function gameStarted() {
   level++;
   msg.innerText = `Level ${level}`;
