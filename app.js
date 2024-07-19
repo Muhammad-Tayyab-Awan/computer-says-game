@@ -1,3 +1,5 @@
+let compInput = [];
+let userInput = [];
 let msg = document.querySelector(".msg");
 let gameStart = false;
 let level = 0;
