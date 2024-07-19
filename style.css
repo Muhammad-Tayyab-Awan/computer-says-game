@@ -19,9 +19,6 @@ body {
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
 }
-.roundBox {
-  border: 2px solid black;
-}
 #rBox1 {
   border-top-left-radius: 100%;
   background-color: red;
