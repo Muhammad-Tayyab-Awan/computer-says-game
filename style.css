@@ -50,3 +50,15 @@ body {
   animation-delay: 0;
   animation-iteration-count: 1;
 }
+.disable {
+  display: none;
+}
+#reset {
+  padding: 10px;
+  font-family: Cambria;
+  border-radius: 10px;
+  border: none;
+  font-weight: bold;
+  color: white;
+  background: linear-gradient(90deg, red, orange);
+}
