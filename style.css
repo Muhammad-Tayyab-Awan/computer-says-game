@@ -62,3 +62,19 @@ body {
   color: white;
   background: linear-gradient(90deg, red, orange);
 }
+.red {
+  animation-name: redBg;
+  animation-duration: 500ms;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+}
+@keyframes redBg {
+  from {
+    background-color: rgba(255, 0, 0, 0.75);
+  }
+  to {
+    background-color: antiquewhite;
+  }
+}
